@@ -1,0 +1,32 @@
+{
+  "name": "whatsapp-bot-pyme-backend",
+  "version": "1.0.0",
+  "description": "WhatsApp Bot para PYMES con Node.js y whatsapp-web.js",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "whatsapp",
+    "bot",
+    "pyme",
+    "nodejs",
+    "express",
+    "mongodb"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^7.0.3",
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.19.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
